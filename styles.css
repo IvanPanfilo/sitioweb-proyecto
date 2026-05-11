@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #eee;
+}
+
+div, body, ul, nav, header, main, footer{
+    box-sizing: border-box;
+}
+
+/*encabezado de la pagina*/
+
+.header{
+    width: 100%;
+    margin: 0;
+    background: url(https://wallpapers.com/images/hd/time-clock-on-the-ground-mvcz4p96bavdozj5.jpg) center/cover;
+}
+
+.header__content{
+    width: 35vw;
+}
+
+.header__content-img{
+    text-align: center;
+}
+
+.logo{
+    width: 310px;
+}
+
+
+/*barra de navegacion*/
+
+.nav{
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    transition: padding 0.3s, background 0.4s;
+    transition-timing-function: ease-out;
+    position: sticky;
+    top: 0;
+}
+
+.nav:hover{
+    background: #000;
+    padding-top: 6px;
+}
+
+.nav:hover .nav__link{
+    color: #fff;
+}
+
+.nav__list{
+    margin: auto;
+    padding: 0;
+}
+
+.nav__item{
+    display: inline-block;
+    margin: 20px;
+}
+
+.nav__link{
+    text-decoration:none;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    color: #000;
+    transition: border 0.1s, color 0.1s;
+}
+
+.nav__link:hover{
+    border-bottom: 3px solid #fff;
+}
+
+
+
+/*main pagina web*/
+
+.main{
+    width: 100%;
+    margin: 0;
+}
+
+.oferta{
+    display: flex;
+    margin-top: 150px;
+}
+
+.div__oferta{
+    margin-left: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.oferta--margin{
+    margin-top: 45px;
+}
+
+.oferta__imagen{
+    width: 250px;
+}
+
+.imagen--margin{
+    margin-bottom: 71px;
+}
+
+.oferta__titulo{
+    font-size: 1.7em;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.oferta__text{
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    color: #1116;
+}
+
+.oferta__precio{
+    font-size: 1.4em;
+}
+
+/*main mas de nosotros*/
+
+.nosotros{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 230px;
+}
+
+.nosotros__titulo{
+    font-size: 6em;
+    letter-spacing: 1px;
+}
+
+.nosotros__contenido{
+    background: #ddd;
+    width: 50vw;
+    padding: 50px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 #000e;
+}
+
+.text{
+    line-height: 2;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/*video*/
+
+.div__video{
+    display: flex;
+    margin: 220px 0;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.video{
+    max-width: 100%;
+}
+
+/*footer de la pagina*/
+
+.footer{
+    background-color: #eee;
+    width: 100%;
+    height: 12vh;
+    border-top: 3px solid #ccc;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer__content{
+    width: 100%;
+    position: absolute;
+}
+
+.footer__item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer__link{
+    font-size: 0.7em;
+    font-family: sans-serif;
+    color: #000e;
+    text-decoration: none;
+}
+
+.footer__text{
+    margin-left: 20px;
+    font-size: .8em;
+    color: #888a;
+}
+
+.text--far{
+    margin-top: 30px;
+}

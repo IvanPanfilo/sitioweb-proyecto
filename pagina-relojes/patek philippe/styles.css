@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+div, body, nav, main{
+    box-sizing: border-box;
+}
+
+/*nav*/
+
+.nav{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    transition: padding 0.3s;
+}
+
+.nav:hover{
+    padding-top: 4px;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__list{
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex__link{
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 8px 25px;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: border 0.1s;
+}
+
+.flex__link:hover{
+    border-bottom: 3px solid #fff;
+}
+
+.content__img{
+    max-width: 80px;
+    margin: 3px;
+}
+
+.flex__logo{
+    max-width: 100%;
+    height: auto;
+}
+
+/*header*/
+
+.flexbox__marca{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.div__marca{
+    width: 200px;
+    margin: auto;
+}
+
+.imagen__marca{
+    max-width: 100%;
+    height: auto;
+}
+
+/*overlay*/
+
+.overlay{
+    background: url(https://swisswatches-magazine.com/wp-content/uploads/2021/11/The-Ultimate-Patek-Philippe-Nautilus-Guide-5740-1G-5726-1A-1600x990.jpg) center/ cover;
+    max-width: 100%;
+    height: 400px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.overlay--2{
+    background: url(https://cdn.mens-folio.com/2024/05/5164G_001_8%402x.jpg?strip=all&quality=92&webp=92&sharp=1) center/ cover;
+}
+
+.overlay--3{
+    background: url(https://hodinkee.imgix.net/uploads/images/821a43ac-2be7-4ddb-918e-13db9209ee05/Calatravaherooption.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12) center/ cover;
+}
+
+.overlay--4{
+    background: url(https://hodinkee.imgix.net/uploads/images/1452879960870-tkgd7dkm9vd-952656f239ec4b53ad0451978f953db6/_hero.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12) center/ cover;
+}
+.flexbox__overlay{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flexbox__text{
+    color: #fff;
+    font-size: 9em;
+    margin-left: 140px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+/*productos*/
+
+.flexbox__contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 0;
+    transition: all 0.1s;
+    align-content: center;
+}
+
+.flexbox__items{
+    width: 40vw;
+    display: flex;
+    margin-top: 100px;
+}
+
+.div-imagen__producto{
+    width: 100%;
+    background-color: #ccc;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.imagen__producto{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.div-texto__producto{
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    border-radius: 6px;
+    padding-right: 20px;
+    color: #000;
+}
+
+.nombre__producto{
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.texto__producto{
+    text-wrap: pretty;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.precio__producto{
+    font-size: 1.4em;
+    margin: 0
+}
+
+/*footer de la pagina*/
+
+.footer{
+    background-color: #eee;
+    width: 100%;
+    height: 12vh;
+    border-top: 3px solid #ccc;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer__content{
+    width: 100%;
+    position: absolute;
+}
+
+.footer__item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer__link{
+    font-size: 0.7em;
+    font-family: sans-serif;
+    color: #000e;
+    text-decoration: none;
+}
+
+.footer__text{
+    margin-left: 20px;
+    font-size: .8em;
+    color: #888a;
+}
+
+.text--far{
+    margin-top: 30px;
+}
