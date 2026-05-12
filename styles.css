@@ -73,6 +73,13 @@ div, body, ul, nav, header, main, footer{
     border-bottom: 3px solid #fff;
 }
 
+.dark-theme {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+.dark-theme .nosotros, .dark-theme .main {
+    background-color: #1a1a1a;
+}
 
 
 /*main pagina web*/

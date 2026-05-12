@@ -59,6 +59,39 @@ div, body, nav, main{
     height: auto;
 }
 
+/* --- CONFIGURACIÓN MODO OSCURO --- */
+
+/* Cuando el body tiene esta clase, el fondo cambia */
+body.dark-theme {
+    background-color: #1a1a1a !important;
+}
+
+/* Forzamos a que los textos de los productos pasen a blanco */
+.dark-theme .nombre__producto, 
+.dark-theme .precio__producto, 
+.dark-theme .texto__producto,
+.dark-theme .nosotros__titulo,
+.dark-theme .text {
+    color: #ffffff !important;
+}
+
+/* Ajustamos el borde del texto del producto para que se vea en el fondo oscuro */
+.dark-theme .div-texto__producto {
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+/* Ajustamos el footer para que no se vea gris claro en modo oscuro */
+.dark-theme .footer {
+    background-color: #111;
+    border-top: 3px solid #333;
+}
+
+.dark-theme .footer__link, 
+.dark-theme .footer__text {
+    color: #ccc !important;
+}
+
 /*header*/
 
 .flexbox__marca{
